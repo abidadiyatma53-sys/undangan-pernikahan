@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Wedding of Azmi Azra Hasan & Aulia Anatasya</title>
+  
+  <!-- SEO & Social Meta Tags -->
+  <meta name="description" content="Pernikahan Azmi Azra Hasan & Aulia Anatasya - Sabtu, 10 Oktober 2026 di Benteng Betawi, Tangerang.">
+  <meta property="og:title" content="The Wedding of Azmi & Aulia">
+  <meta property="og:description" content="Maha suci Allah yang telah menciptakan mahluk-Nya berpasang-pasangan. Kami mengundang Anda untuk hadir di pernikahan kami.">
+  <meta property="og:image" content="images/hero.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="images/hero.jpg">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="locked">
+
+  <!-- ========================================================================
+       COVER SCREEN (SPLASH OVERLAY)
+       ======================================================================== -->
+  <div id="cover-screen" class="cover-screen">
+    <div class="cover-bg"></div>
+    <div class="cover-overlay"></div>
+    <div class="cover-content">
+      <p class="cover-subtitle">The Wedding of</p>
+      <h1 class="cover-names">Azmi & Aulia</h1>
+
+      <div class="cover-guest-card">
+        <p>Kepada Yth. Bapak/Ibu/Saudara/i:</p>
+        <div class="cover-guest-name dynamic-guest-name">Tamu Undangan</div>
+      </div>
+
+      <button id="btn-open-invitation" class="btn-open-invitation" type="button">
+        <span>💌</span> Buka Undangan
+      </button>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       FLOATING AUDIO CONTROLLER & BACKGROUND MUSIC
+       ======================================================================== -->
+  <div class="audio-controller">
+    <button id="audio-btn" class="audio-btn" type="button" title="Putar / Hentikan Musik: Kahitna - Titik Nadir">
+      🎵
+    </button>
+    <audio id="wedding-audio" loop preload="auto">
+      <source src="titik-nadir.mp3" type="audio/mpeg">
+      <source src="titik-nadir.m4a" type="audio/mp4">
+      Browser Anda tidak mendukung elemen audio.
+    </audio>
+  </div>
+
+  <!-- ========================================================================
+       MAIN INVITATION WRAPPER
+       ======================================================================== -->
+  <div class="invitation-wrapper">
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero-section">
+      <div class="hero-image-wrap">
+        <img src="images/hero.jpg" onerror="this.src='https://galerynikah.id/wp-content/uploads/2024/08/Kholil-Aura-3-1.jpeg'" alt="Azmi & Aulia">
+      </div>
+
+      <img src="images/name-title.png" onerror="this.style.display='none'" class="hero-names-img" alt="Azmi Azra Hasan & Aulia Anatasya">
+
+      <span class="hero-date-badge">Sabtu, 10 Oktober 2026</span>
+
+      <p style="font-size: 0.9rem; color: var(--text-muted); padding: 0 15px;">
+        Kepada Yth. <strong class="dynamic-guest-name" style="color: var(--primary-gold-dark);">Tamu Undangan</strong><br>
+        Kami mengundang Anda untuk merayakan hari bahagia pernikahan kami.
+      </p>
+    </section>
+
+    <!-- QURAN VERSE SECTION -->
+    <section id="quote" class="quote-section">
+      <div class="quote-card">
+        <p class="font-arabic bismillah-text">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+        <p class="quote-arabic-verse">
+          "Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang berpikir."
+        </p>
+        <p class="quote-reference">QS. AR-RUM: 21</p>
+      </div>
+    </section>
+
+    <!-- COUPLE SECTION (MEMPELAI) -->
+    <section id="couple" class="couple-section">
+      <span class="section-tag">Maha Suci Allah</span>
+      <h2 class="section-title">Pasangan Mempelai</h2>
+      <p style="font-size: 0.92rem; color: var(--text-muted); margin-bottom: 30px;">
+        Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud menyelenggarakan syukuran pernikahan putra-putri kami:
+      </p>
+
+      <!-- GROOM -->
+      <div class="couple-card">
+        <img src="images/gallery-3.jpg" onerror="this.src='https://galerynikah.id/wp-content/uploads/2024/08/Kholil-Aura-3.jpeg'" class="couple-avatar" alt="Azmi Azra Hasan">
+        <h3 class="couple-name">Azmi Azra Hasan</h3>
+        <div class="couple-parents" style="margin-top: 8px;">
+          <strong>Putra dari:</strong>
+          Bapak H.Hasan & Ibu Hj.Rosidah
+        </div>
+        <a href="https://www.instagram.com/fufufafafafah/" target="_blank" rel="noopener noreferrer" class="btn-instagram">
+          <span>📷</span> @fufufafafafah
+        </a>
+      </div>
+
+      <div class="couple-separator">&</div>
+
+      <!-- BRIDE -->
+      <div class="couple-card">
+        <img src="images/gallery-5.jpg" onerror="this.src='https://galerynikah.id/wp-content/uploads/2024/08/Kholil-Aura-5.jpeg'" class="couple-avatar" alt="Aulia Anatasya">
+        <h3 class="couple-name">Aulia Anatasya</h3>
+        <div class="couple-parents" style="margin-top: 8px;">
+          <strong>Putri dari:</strong>
+          Bapak Komarudin & Ibu Musliha
+        </div>
+        <a href="https://www.instagram.com/auliasya_/?hl=id" target="_blank" rel="noopener noreferrer" class="btn-instagram">
+          <span>📷</span> @auliasya_
+        </a>
+      </div>
+    </section>
+
+    <!-- EVENT SECTION (ACARA) -->
+    <section id="event" class="event-section" style="background: #fbf9f4;">
+      <span class="section-tag">Save The Date</span>
+      <h2 class="section-title">Rangkaian Acara</h2>
+
+      <!-- AKAD NIKAH -->
+      <div class="event-card">
+        <h3 class="event-type">Akad Nikah</h3>
+        <div class="event-date">Sabtu, 10 Oktober 2026</div>
+        <div class="event-time">⏰ Pukul 09.00 WIB - Selesai</div>
+        <div class="event-venue">
+          <strong>Ponpes Daarul Muqorrobin</strong>
+          Jl. H. Jali, RT.001/RW.003, Kunciran Jaya, Kec. Pinang, Kota Tangerang, Banten 15144
+        </div>
+        <a href="https://maps.app.goo.gl/pe3RWcChw4fctfFb9" target="_blank" rel="noopener noreferrer" class="btn-maps">
+          <span>📍</span> Buka Google Maps
+        </a>
+      </div>
+
+      <!-- RESEPSI -->
+      <div class="event-card">
+        <h3 class="event-type">Resepsi Pernikahan</h3>
+        <div class="event-date">Sabtu, 10 Oktober 2026</div>
+        <div class="event-time">⏰ Pukul 10.00 WIB - Selesai</div>
+        <div class="event-venue">
+          <strong>Ponpes Daarul Muqorrobin</strong>
+          Jl. H. Jali, RT.001/RW.003, Kunciran Jaya, Kec. Pinang, Kota Tangerang, Banten 15144
+        </div>
+        <a href="https://maps.app.goo.gl/pe3RWcChw4fctfFb9" target="_blank" rel="noopener noreferrer" class="btn-maps">
+          <span>📍</span> Buka Google Maps
+        </a>
+        <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=The+Wedding+of+Azmi+Azra+Hasan+%26+Aulia+Anatasya&dates=20261010T090000/20261010T150000&details=Pernikahan+Azmi+Azra+Hasan+dan+Aulia+Anatasya&location=Kantor+Kelurahan+Kuta+Jaya" target="_blank" rel="noopener noreferrer" class="btn-calendar">
+          <span>📅</span> Tambah ke Google Calendar
+        </a>
+      </div>
+    </section>
+
+    <!-- COUNTDOWN TIMER SECTION -->
+    <section id="countdown" class="countdown-section">
+      <span class="section-tag">Menuju Hari Bahagia</span>
+      <h2 class="section-title">Hitung Mundur</h2>
+
+      <div class="countdown-grid">
+        <div class="countdown-item">
+          <span id="cd-days" class="countdown-number">00</span>
+          <span class="countdown-label">Hari</span>
+        </div>
+        <div class="countdown-item">
+          <span id="cd-hours" class="countdown-number">00</span>
+          <span class="countdown-label">Jam</span>
+        </div>
+        <div class="countdown-item">
+          <span id="cd-minutes" class="countdown-number">00</span>
+          <span class="countdown-label">Menit</span>
+        </div>
+        <div class="countdown-item">
+          <span id="cd-seconds" class="countdown-number">00</span>
+          <span class="countdown-label">Detik</span>
+        </div>
+      </div>
+
+      <p style="font-size: 0.88rem; color: var(--text-muted);">
+        Menghitung hari menuju ikatan suci janji sehidup semati.
+      </p>
+    </section>
+
+    <!-- GALLERY SECTION -->
+    <section id="gallery" class="gallery-section">
+      <span class="section-tag">Moment of Love</span>
+      <h2 class="section-title">Galeri Foto</h2>
+
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="images/gallery-1.jpg" onerror="this.src='https://galerynikah.id/wp-content/uploads/2024/08/Kholil-Aura-1.jpeg'" alt="Foto Kenangan 1">
+          <div class="gallery-overlay">🔍</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/gallery-2.jpg" onerror="this.src='https://galerynikah.id/wp-content/uploads/2024/08/Kholil-Aura-2.jpeg'" alt="Foto Kenangan 2">
+          <div class="gallery-overlay">🔍</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/gallery-3.jpg" onerror="this.src='https://galerynikah.id/wp-content/uploads/2024/08/Kholil-Aura-3.jpeg'" alt="Foto Kenangan 3">
+          <div class="gallery-overlay">🔍</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/gallery-4.jpg" onerror="this.src='https://galerynikah.id/wp-content/uploads/2024/08/Kholil-Aura-4.jpeg'" alt="Foto Kenangan 4">
+          <div class="gallery-overlay">🔍</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/gallery-5.jpg" onerror="this.src='https://galerynikah.id/wp-content/uploads/2024/08/Kholil-Aura-5.jpeg'" alt="Foto Kenangan 5">
+          <div class="gallery-overlay">🔍</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/gallery-6.jpg" onerror="this.src='https://galerynikah.id/wp-content/uploads/2024/08/Kholil-Aura-6.jpeg'" alt="Foto Kenangan 6">
+          <div class="gallery-overlay">🔍</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WEDDING GIFT / AMPLOP DIGITAL SECTION -->
+    <section id="gift" class="gift-section" style="background: #fbf9f4;">
+      <span class="section-tag">Tanda Kasih</span>
+      <h2 class="section-title">Wedding Gift</h2>
+      <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 25px; line-height: 1.6;">
+        Doa restu Anda merupakan karunia yang sangat berarti bagi kami. Dan jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi kado secara cashless:
+      </p>
+
+      <!-- BCA -->
+      <div class="gift-card">
+        <img src="images/bca.png" onerror="this.src='https://galerynikah.id/wp-content/uploads/2022/11/BCA_logo_Bank_Central_Asia.png'" alt="Bank BCA" class="bank-logo">
+        <div class="bank-account-num">8670643469</div>
+        <div class="bank-account-name">a.n. Aulia Anatasya</div>
+        <button class="btn-copy" type="button" data-copy="8670643469">
+          <span>📋</span> Salin Nomor Rekening
+        </button>
+      </div>
+
+      <!-- MANDIRI -->
+      <div class="gift-card">
+        <img src="images/mandiri.png" onerror="this.src='https://galerynikah.id/wp-content/uploads/2023/04/LOGO-MANDIRI.png'" alt="Bank Mandiri" class="bank-logo">
+        <div class="bank-account-num">1556952278</div>
+        <div class="bank-account-name">a.n. Azmi Azra Hasan</div>
+        <button class="btn-copy" type="button" data-copy="1556952278">
+          <span>📋</span> Salin Nomor Rekening
+        </button>
+      </div>
+    </section>
+
+    <!-- WISHES & RSVP SECTION -->
+    <section id="wishes" class="wishes-section">
+      <span class="section-tag">Buku Tamu</span>
+      <h2 class="section-title">Ucapan & Doa Restu</h2>
+
+      <!-- FORM RSVP -->
+      <div class="wishes-form-card">
+        <form id="wish-form">
+          <div class="form-group">
+            <label class="form-label" for="wish-name">Nama Lengkap</label>
+            <input type="text" id="wish-name" class="form-input" placeholder="Masukkan nama Anda..." required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="wish-attendance">Konfirmasi Kehadiran</label>
+            <select id="wish-attendance" class="form-select">
+              <option value="hadir">Hadir</option>
+              <option value="ragu">Masih Ragu</option>
+              <option value="tidak">Tidak Hadir</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="wish-message">Ucapan & Doa</label>
+            <textarea id="wish-message" class="form-textarea" placeholder="Tuliskan ucapan dan doa terbaik Anda untuk kedua mempelai..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn-submit-wish">
+            Kirim Ucapan & Doa ✨
+          </button>
+        </form>
+      </div>
+
+      <!-- FEED LIST OF WISHES -->
+      <div style="text-align: left; margin-bottom: 12px; font-weight: 600; font-size: 0.92rem; color: var(--text-main);">
+        💬 Total Ucapan: (<span id="wishes-count">0</span>)
+      </div>
+      <div id="wishes-list" class="wishes-list">
+        <!-- Rendered by script.js -->
+      </div>
+    </section>
+
+    <!-- CLOSING SECTION -->
+    <section class="closing-section">
+      <p style="font-size: 0.92rem; color: var(--text-muted); line-height: 1.7; margin-bottom: 20px;">
+        Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu kepada kami.
+      </p>
+
+      <p class="font-arabic" style="font-size: 1.3rem; margin-bottom: 10px;">
+        وَالسَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ
+      </p>
+      <p style="font-size: 0.95rem; font-weight: 600; color: var(--text-main); margin-bottom: 15px;">
+        Wassalamu'alaikum Warahmatullahi Wabarakatuh
+      </p>
+
+      <p style="font-size: 0.85rem; color: var(--text-muted);">Kami yang berbahagia,</p>
+      <div class="closing-names">Azmi & Aulia</div>
+      <p style="font-size: 0.85rem; color: var(--primary-gold-dark); font-weight: 600;">Beserta Keluarga Besar Kedua Mempelai</p>
+
+      <div class="footer-credit">
+        The Wedding Invitation © 2026 Azmi Azra Hasan & Aulia Anatasya. All Rights Reserved.
+      </div>
+    </section>
+
+  </div><!-- /.invitation-wrapper -->
+
+  <!-- ========================================================================
+       FLOATING BOTTOM NAVIGATION DOCK
+       ======================================================================== -->
+  <nav class="bottom-nav" aria-label="Navigasi Undangan">
+    <a href="#hero" class="nav-link active" title="Beranda">
+      <span>🏠</span>
+      <span>Home</span>
+    </a>
+    <a href="#couple" class="nav-link" title="Mempelai">
+      <span>💍</span>
+      <span>Mempelai</span>
+    </a>
+    <a href="#event" class="nav-link" title="Acara">
+      <span>📅</span>
+      <span>Acara</span>
+    </a>
+    <a href="#gallery" class="nav-link" title="Galeri">
+      <span>🖼️</span>
+      <span>Galeri</span>
+    </a>
+    <a href="#gift" class="nav-link" title="Kado">
+      <span>🎁</span>
+      <span>Gift</span>
+    </a>
+    <a href="#wishes" class="nav-link" title="Ucapan">
+      <span>💌</span>
+      <span>Ucapan</span>
+    </a>
+  </nav>
+
+  <!-- ========================================================================
+       LIGHTBOX MODAL FOR GALLERY
+       ======================================================================== -->
+  <div id="lightbox-modal" class="lightbox-modal" role="dialog" aria-modal="true">
+    <button id="lightbox-close" class="lightbox-btn lightbox-close" type="button" aria-label="Tutup">✕</button>
+    <button id="lightbox-prev" class="lightbox-btn lightbox-prev" type="button" aria-label="Sebelumnya">‹</button>
+    <div class="lightbox-content">
+      <img id="lightbox-img" class="lightbox-image" src="" alt="Detail Galeri Foto">
+    </div>
+    <button id="lightbox-next" class="lightbox-btn lightbox-next" type="button" aria-label="Selanjutnya">›</button>
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div id="toast-msg" class="toast-msg" role="status" aria-live="polite"></div>
+
+  <!-- JAVASCRIPT -->
+  <script src="script.js"></script>
+</body>
+</html>
